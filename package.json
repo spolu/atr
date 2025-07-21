@@ -2,7 +2,7 @@
   "name": "atr",
   "version": "1.0.0",
   "bin": {
-    "atr": "./dist/index.js"
+    "atr": "./src/index.js"
   },
   "scripts": {
     "start": "ts-node src/index.ts",
