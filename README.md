@@ -5,21 +5,24 @@ CLI tool for transcribing audio files using OpenAI's Whisper API.
 ## Installation
 
 ```bash
-npm install -g atr
 # In .bashrc
 export OPENAI_API_KEY="your-api-key-here"
+
+# After cloning
+npm run build
+npm install -g .
 ```
 
 ## Usage
 
 ```bash
 atr -f audio.wav
-atr -f audio.wav -l fr
+atr -f audio.wav -l en
 ```
 
 ## Bash Helper Functions
 
-Add these functions to your `.bashrc` or `.zshrc`
+Add these functions to your `.bashrc` or `.zshrc` for maximal fun:
 
 ```bash
 tra() {
