@@ -32,7 +32,6 @@ tra() {
   echo -e "\033[90mWorking...\033[0m"
   atr -f /tmp/output.wav > /tmp/atr.out
   echo -e "\033[1A\033[K$(cat /tmp/atr.out)"
-  cat /tmp/atr.out | pbcopy
 }
 
 trc() {
@@ -42,4 +41,4 @@ trc() {
 
 Then use:
 - `tra` - Record and transcribe and copy
-- `trc` - Cat last transcription
+- `trc` - Cat last transcription, eg `trc | pbcopy`
