@@ -1,6 +1,6 @@
 # ATR - Audio Transcription CLI
 
-CLI tool for transcribing audio files using OpenAI's Whisper API.
+CLI tool for transcribing audio files using OpenAI's gpt-4o-transcribe.
 
 ## Installation
 
