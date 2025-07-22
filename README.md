@@ -17,7 +17,6 @@ npm install -g .
 
 ```bash
 atr -f audio.wav
-atr -f audio.wav -l en
 ```
 
 ## Bash Helper Functions
