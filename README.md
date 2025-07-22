@@ -55,5 +55,5 @@ trc() {
 ```
 
 Then use:
-- `tra` - Record and transcribe and copy
+- `tra` - Record and transcribe + store all files
 - `trc` - Cat last transcription, eg `trc | pbcopy`
