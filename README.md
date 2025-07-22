@@ -21,7 +21,7 @@ atr -f audio.wav
 
 ## Bash Helper Functions
 
-Add these functions to your `.bashrc` or `.zshrc` for maximal fun:
+This is most of the value of the proejct: add (and customize) these functions to your `.bashrc` or `.zshrc`.
 
 ```bash
 tra() {
